@@ -32,7 +32,7 @@ Skills I learned:
 
 
 ### Home and Update Brew preference
-![SignIn Demo]<img src="Demo/Update.gif" width="240" height="400">
+![SignIn Demo]<img src="Demo/Update.gif" width="400" height="790">
 
 Skills I learned: 
 - Firebase Firestore used and linked logged In user to FirebaseFirestore database.

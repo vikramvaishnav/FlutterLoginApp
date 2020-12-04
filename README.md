@@ -12,7 +12,7 @@ Register -> Login > See others Brew Prefrences -> Edit your own Brew Preferences
 I have used Stream listener So if the user is already logged in then it will show **Home Screen** OR It will show **SingIn Screen** Automatically
 
 ### Register
-![Register Demo](Demo/Register.gif)
+<img src="Demo/Register.gif" width="240" height="440">
 
 Skills I learned: 
 - Firebase Authentication- RegisterWithEmailAndPassword
@@ -22,9 +22,8 @@ Skills I learned:
 - Provider Package
 - Loading Widget
 
-### SigIn 
-![SignIn Demo](Demo/SignIn.gif)
-![User does not Exist Demo](Demo/SignIn.gif)
+### SignIn with Correct and Wrong Credentials 
+<img src="Demo/SignIn.gif" width="240" height="440">                 <img src="Demo/Wrong_Credentials.gif" width="240" height="440">
 
 Skills I learned: 
 - Firebase Authentication- SignInWithEmailAndPassword
@@ -32,10 +31,10 @@ Skills I learned:
 
 
 ### Home and Update Brew preference
-![SignIn Demo](Demo/Update.gif)
+<img src="Demo/Update.gif" width="240" height="440">
 
 Skills I learned: 
-- Firebase Firestore used and linked logged In user to FirebaseFirestore database.
+- Firebase Firestore used and linked logged In users to the FirebaseFirestore database.
 - Accessing Firestore Collection/Document/Fields
 - Create 3 Stream  
   - Firebase Stream to listen to the change in Firebase auth states.

@@ -1,4 +1,5 @@
 import 'package:brew_crew/models/user.dart';
+import 'package:brew_crew/services/database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class AuthService {
@@ -37,6 +38,8 @@ class AuthService {
       AuthResult result = await _auth.createUserWithEmailAndPassword(
           email: email, password: password);
       FirebaseUser user = result.user;
+      //creating new document for a user with uid
+      await DatabaseService(uid:user.uid).updateUserData('0', 'New Crew Member', 100);
       return _userFromFirebaseUser(user);
     } catch (e) {
       print(e.toString());
